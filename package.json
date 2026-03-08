@@ -1,0 +1,23 @@
+{
+  "name": "pratice_project",
+  "version": "1.0.0",
+  "description": "Backend_practice",
+  "keywords": [
+    "backend"
+  ],
+  "homepage": "https://github.com/blck-zero/backend_practice#readme",
+  "bugs": {
+    "url": "https://github.com/blck-zero/backend_practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blck-zero/backend_practice.git"
+  },
+  "license": "ISC",
+  "author": "Harsh Chaudhary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
