@@ -1,5 +1,8 @@
 //making asynhandler so we don't have to check for error every time in any async funtion for more :- https://chatgpt.com/share/69b80656-90e0-800c-9c9c-0d16e98aad2f
 
+import { p, q } from "framer-motion/client"
+import { EthernetPort } from "lucide-react"
+
 const asyncHandler =(fn)=>async(req,res,next)=>{
     try {
         await fn(req,res,next)
@@ -7,7 +10,7 @@ const asyncHandler =(fn)=>async(req,res,next)=>{
 
         res.status(error.code||500).json{
             succes:false,
-            message:error.message
+            message:error.message 
         }
         
     }
